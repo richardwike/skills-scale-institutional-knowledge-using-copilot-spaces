@@ -13,6 +13,14 @@ Maintain a simple table with:
 - Mitigation plan
 - Status
 
+**Role Ownership for Risks:**
+- Technical risks → **Technical Lead**
+- Quality/testing risks → **QA Lead**
+- Requirements/scope risks → **Business Analyst** in partnership with **Product Manager**
+- UX/usability risks → **UX Designer**
+- Schedule/resource risks → **Project Manager**
+- Process/agility risks → **Scrum Master**
+
 ## Risk Lifecycle
 - Identify: during planning and ongoing execution
 - Assess: estimate impact and likelihood
@@ -40,3 +48,5 @@ Incident Communication
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+> **Changelog:** Risk ownership updated to assign specific risk categories to new roles (Technical Lead, QA Lead, Business Analyst, UX Designer, Scrum Master) for clearer accountability. See [issue #4](https://github.com/richardwike/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4).

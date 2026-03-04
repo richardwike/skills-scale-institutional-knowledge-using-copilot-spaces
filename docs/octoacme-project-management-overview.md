@@ -14,11 +14,19 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM):** coordinates delivery, schedules, risk, and communications.
+- **Product Manager (PdM):** defines outcomes, prioritizes backlog, and measures success.
+- **Scrum Master:** facilitates agile ceremonies, removes impediments, and coaches the team.
+- **Technical Lead:** owns technical architecture, leads design/code reviews, and manages technical risk.
+- **Developers:** implement features, collaborate on design and testability.
+- **UX Designer:** drives user experience design, prototyping, and usability testing.
+- **Business Analyst:** elicits and documents requirements, bridges stakeholders and the dev team.
+- **QA Lead:** oversees test strategy, quality gates, and defect triage.
+- **Stakeholders:** provide inputs and approvals.
+
+For detailed responsibilities and cross-role interactions, see [Roles & Personas](octoacme-roles-and-personas.md).
+
+> **Changelog:** Core Roles expanded with Scrum Master, Technical Lead, UX Designer, Business Analyst, and QA Lead to improve process ownership and cross-functional accountability. See [issue #4](https://github.com/richardwike/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +52,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- New team members should start with the [Onboarding Checklist](octoacme-onboarding-checklist.md).

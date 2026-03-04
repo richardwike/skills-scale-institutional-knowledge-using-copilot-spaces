@@ -4,8 +4,8 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
-- Weekly delivery sync — show progress, updates, and flagged risks
+- Daily standups (15 min) — focus on progress, blockers, dependencies; facilitated by **Scrum Master**
+- Weekly delivery sync — show progress, updates, and flagged risks; led by **Project Manager**
 - Demo/Review at the end of each sprint or milestone
 
 ## Workflows
@@ -15,13 +15,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - **Technical Lead** reviews architecture-impacting changes
 
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
 - Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Manual QA for feature acceptance — coordinated by **QA Lead**
+- Usability reviews for user-facing features — led by **UX Designer**
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,7 +31,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
+- Level 1: Team-level triage in daily standup (**Scrum Master** facilitates)
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
 
@@ -38,3 +40,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] **QA Lead** sign-off criteria defined for each sprint/release
+- [ ] **Technical Lead** consulted for any architectural changes
+
+> **Changelog:** Execution guidance updated to reflect roles of Scrum Master, Technical Lead, UX Designer, and QA Lead in day-to-day delivery. See [issue #4](https://github.com/richardwike/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4).

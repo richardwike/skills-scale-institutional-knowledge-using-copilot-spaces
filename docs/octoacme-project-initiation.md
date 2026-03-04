@@ -35,9 +35,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Roles assigned: Project Manager, Product Manager, Technical Lead, Scrum Master, QA Lead, UX Designer, Business Analyst (as applicable)
+- [ ] New team members directed to [Onboarding Checklist](octoacme-onboarding-checklist.md)
 
 ## Decision Gate
 Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+
+> **Changelog:** Initiation checklist updated to include role assignments for expanded team roles (Scrum Master, Technical Lead, UX Designer, Business Analyst, QA Lead) and onboarding reference. See [issue #4](https://github.com/richardwike/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4).
